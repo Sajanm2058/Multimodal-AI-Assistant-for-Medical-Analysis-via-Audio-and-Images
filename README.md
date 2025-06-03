@@ -20,7 +20,7 @@ Based on the raw setup guide and project phases you’ve provided, here’s a cl
 3. [Running the Project](#running-the-project)
 4. [Project Structure](#project-structure)
 5. [Disclaimer](#disclaimer)
-6. [License](#license)
+
 
 ---
 
