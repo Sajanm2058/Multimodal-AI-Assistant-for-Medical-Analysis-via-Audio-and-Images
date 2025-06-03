@@ -1,4 +1,4 @@
-# Multimodal-AI-Assistant-for-Medical-Analysis-via-Audio-and-Images
+Multimodal-AI-Assistant-for-Medical-Analysis-via-Audio-and-Images
 Multimodal AI Assistant: MediVoiceVision (AI-Powered Voice and Vision Healthcare Assistant )for Medical Analysis via Audio and Images
 
 Based on the raw setup guide and project phases you’ve provided, here’s a clean and professional `README.md` file for your project, integrating all instructions and information:
@@ -6,13 +6,13 @@ Based on the raw setup guide and project phases you’ve provided, here’s a cl
 ---
 
 ````markdown
-# 🩺 MediVoiceVision: Multimodal AI Healthcare Assistant
+🩺 MediVoiceVision: Multimodal AI Healthcare Assistant
 
 **MediVoiceVision** is an AI-powered multimodal assistant that enables interactive, voice-based consultations enhanced by image-based diagnostics. Combining state-of-the-art models like **Whisper Large V3** for speech recognition and **LLaMA-4 Scout** for vision and conversation, this assistant simulates a digital doctor capable of interpreting patient voice and medical imagery.
 
 ---
 
-## 📚 Table of Contents
+📚 Table of Contents
 
 1. [Features](#features)
 2. [Installation Guide](#installation-guide)
@@ -25,7 +25,7 @@ Based on the raw setup guide and project phases you’ve provided, here’s a cl
 
 ---
 
-## ✅ Features
+✅ Features
 
 - 🎤 **Speech-to-Text**: Powered by Whisper Large V3  
 - 🧠 **Multimodal Reasoning**: Uses LLaMA-4 Scout for intelligent response generation from text + image  
@@ -35,11 +35,11 @@ Based on the raw setup guide and project phases you’ve provided, here’s a cl
 
 ---
 
-## 🛠️ Installation Guide
+🛠️ Installation Guide
 
-### ⚙️ Install FFmpeg and PortAudio
+⚙️ Install FFmpeg and PortAudio
 
-#### macOS
+macOS
 ```bash
 # Install Homebrew if not already installed
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -74,9 +74,9 @@ sudo apt install ffmpeg portaudio19-dev
 
 ---
 
-### 🐍 Set Up Python Environment
+🐍 Set Up Python Environment
 
-#### Option 1: Using Pipenv
+Option 1: Using Pipenv
 
 ```bash
 pip install pipenv
@@ -106,7 +106,7 @@ pip install -r requirements.txt
 
 ---
 
-## ▶️ Running the Project
+▶️ Running the Project
 
 Execute the following in order to simulate a full consultation flow:
 
@@ -153,7 +153,7 @@ mediVoiceVision/
 
 ---
 
-## ⚠️ Disclaimer
+⚠️ Disclaimer
 
 > This tool is intended for **research and educational purposes only**. It is **not approved for real-world clinical use** and **should not replace professional medical diagnosis or treatment**.
 
