@@ -5,14 +5,13 @@ Based on the raw setup guide and project phases you’ve provided, here’s a cl
 
 ---
 
-````markdown
-🩺 MediVoiceVision: Multimodal AI Healthcare Assistant
+# 🩺 MediVoiceVision: Multimodal AI Healthcare Assistant
 
 **MediVoiceVision** is an AI-powered multimodal assistant that enables interactive, voice-based consultations enhanced by image-based diagnostics. Combining state-of-the-art models like **Whisper Large V3** for speech recognition and **LLaMA-4 Scout** for vision and conversation, this assistant simulates a digital doctor capable of interpreting patient voice and medical imagery.
 
 ---
 
-📚 Table of Contents
+## 📚 Table of Contents
 
 1. [Features](#features)
 2. [Installation Guide](#installation-guide)
@@ -25,7 +24,7 @@ Based on the raw setup guide and project phases you’ve provided, here’s a cl
 
 ---
 
-✅ Features
+## ✅ Features
 
 - 🎤 **Speech-to-Text**: Powered by Whisper Large V3  
 - 🧠 **Multimodal Reasoning**: Uses LLaMA-4 Scout for intelligent response generation from text + image  
@@ -35,18 +34,17 @@ Based on the raw setup guide and project phases you’ve provided, here’s a cl
 
 ---
 
-🛠️ Installation Guide
+## 🛠️ Installation Guide
 
-⚙️ Install FFmpeg and PortAudio
+### ⚙️ Install FFmpeg and PortAudio
 
-macOS
+#### macOS
 ```bash
 # Install Homebrew if not already installed
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 # Install FFmpeg and PortAudio
 brew install ffmpeg portaudio
-````
 
 #### Linux (Ubuntu/Debian)
 
